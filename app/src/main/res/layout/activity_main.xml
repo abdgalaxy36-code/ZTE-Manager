@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ZTE Router Manager" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+        <Button android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="اتصال وجلب المعلومات" />
+        <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="الحالة: غير متصل" android:padding="6dp"/>
+        <TextView android:id="@+id/tvInfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="البيانات ستظهر هنا..." android:padding="6dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#DDD" android:layout_marginVertical="12dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="قفل الترددات (LTE Band Lock)" android:textSize="16sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnB1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="قفل B1 (0x1)" />
+        <Button android:id="@+id/btnB3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="قفل B3 (0x4)" />
+        <Button android:id="@+id/btnB8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="قفل B8 (0x80)" />
+        <Button android:id="@+id/btnB40" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="قفل B40 (0x8000000000)" />
+        <Button android:id="@+id/btnReset" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="إعادة التلقائي (الكل)" />
+    </LinearLayout>
+</ScrollView>
